@@ -66,7 +66,6 @@ const projects = [
     images: [
       "/fleet-tracking-dash/real-time-fleet-ss1.png",
       "/fleet-tracking-dash/real-time-fleet-ss2.png",
-      "/fleet-tracking-dash/ai_chat_doc_ss1.png",
     ],
   },
   {
