@@ -69,7 +69,7 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="glass-card rounded-2xl p-8 hover:-translate-y-2 transition-transform duration-300"
+              className="bg-background/60 backdrop-blur-md border border-white/10 dark:border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.1)] rounded-2xl p-8 hover:-translate-y-2 transition-transform duration-300"
             >
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary">
                 <service.icon className="w-6 h-6" />

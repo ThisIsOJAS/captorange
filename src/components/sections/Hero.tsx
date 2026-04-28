@@ -21,11 +21,8 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-card text-sm font-medium mb-8 text-foreground/80"
-        >
-          <Sparkles className="h-4 w-4 text-primary" />
-          <span>Premium Digital Product Studio</span>
-        </motion.div>
+          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-background/60 backdrop-blur-md border border-white/10 dark:border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.1)] text-sm font-medium mb-8 text-foreground/80"
+        ></motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}

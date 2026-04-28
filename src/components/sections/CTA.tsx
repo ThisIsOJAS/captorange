@@ -12,7 +12,7 @@ export function CTA() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-4xl mx-auto glass-card rounded-3xl p-8 md:p-16 text-center relative overflow-hidden"
+          className="max-w-4xl mx-auto bg-background/60 backdrop-blur-md border border-white/10 dark:border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.1)] rounded-3xl p-8 md:p-16 text-center relative overflow-hidden"
         >
           {/* Animated decorative lines */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">

@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="relative bg-white text-black pt-16 pb-48 md:pb-64 mt-24 overflow-hidden border-t border-black/10">
+    <footer className="relative bg-white text-black pt-16 pb-24 md:pb-40 mt-24 overflow-hidden border-t border-black/10">
       <div className="w-full px-4 md:px-12 lg:px-24 xl:px-32 flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
         <div className="flex flex-col items-center md:items-start gap-2">
           <p className="text-sm text-black/60 font-medium">
@@ -26,7 +26,7 @@ export function Footer() {
       </div>
 
       {/* Massive Logo at the bottom */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120vw] min-w-250 translate-y-[25%] md:translate-y-[40%] pointer-events-none opacity-60 flex justify-center items-end">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-[120vw] lg:w-[100vw] xl:w-[120vw] translate-y-[35%] md:translate-y-[40%] pointer-events-none opacity-60 flex justify-center items-end">
         <Image
           src="/captorange_logo.png"
           alt="CAPTORANGE Background Logo"
