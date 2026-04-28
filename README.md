@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CAPTORANGE Digital Studio Portfolio
 
-## Getting Started
+Welcome to the official portfolio and business website for **CAPTORANGE** - a premium digital product studio.
 
-First, run the development server:
+This repository contains the source code for the high-performance, mobile-first landing page designed to showcase services, previous client work, and personal capstone projects. The site is built with modern web technologies focusing on a stunning dark-mode-first aesthetic, smooth animations, and optimized performance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: [Next.js](https://nextjs.org/) (React)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Theming**: `next-themes` (Dark/Light mode support)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Premium Glassmorphism UI**: Extensive use of translucent backgrounds and backdrop blurs to create a deep, layered interface that works beautifully in both dark and light modes.
+- **Poker-Hand Image Gallery**: Custom interactive animations for displaying project screenshots in a stacked "poker hand" layout that fans out on hover.
+- **Immersive Full-Screen Modals**: Custom `ImageModal` component utilizing Next.js `<Image />` optimization to view high-resolution screenshots without layout shifts.
+- **Infinite Marquee**: Smooth auto-scrolling tech stack banner.
+- **Fully Responsive**: Meticulously designed to look perfect on mobile devices, tablets, and ultra-wide desktop monitors.
+- **Solo-Founder Optimized**: Copy and layout structured specifically for a solo full-stack developer running a digital studio.
 
-## Learn More
+## Local Development
 
-To learn more about Next.js, take a look at the following resources:
+To run the project locally on your machine:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/ThisIsOJAS/captorange.git
+   cd captorange
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **View the site:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+- `/src/app` - Next.js App Router layout, page entry points, and global styles.
+- `/src/components/sections` - Major page blocks (Hero, Services, FeaturedProject, ProjectsGrid, CTA, DeveloperProfile, etc).
+- `/src/components/ui` - Reusable interface components (Navbar, Footer, ImageModal, FloatingElements).
+- `/public` - Static assets including the massive CAPTORANGE logo and all project screenshots.
+
+## License
+
+© 2026 CAPTORANGE. All rights reserved.
