@@ -13,11 +13,11 @@ export function Footer() {
 
         <div className="flex flex-col items-center md:items-end gap-2">
           <a
-            href="mailto:hello@captorange.com"
+            href="mailto:captorange.dev@gmail.com"
             className="flex items-center gap-2 text-black/80 hover:text-primary transition-colors font-bold text-lg"
           >
             <Mail className="w-5 h-5" />
-            hello@captorange.com
+            captorange.dev@gmail.com
           </a>
           <p className="text-sm text-black/60 font-medium flex items-center gap-1.5">
             Made with <span className="text-primary">🧡</span> in India

@@ -55,7 +55,7 @@ export function CTA() {
               reality.
             </p>
             <a
-              href="mailto:hello@captorange.com"
+              href="mailto:captorange.dev@gmail.com"
               className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground text-lg font-bold rounded-full hover:bg-primary/90 hover:scale-105 transition-all shadow-[0_0_30px_rgba(255,165,0,0.3)]"
             >
               <Mail className="w-5 h-5" />

@@ -49,18 +49,18 @@ export function Navbar() {
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-300",
-        isScrolled ? "py-4" : "py-6"
+        isScrolled ? "py-4" : "py-6",
       )}
     >
       <div className="container max-w-5xl mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between px-6 py-3 rounded-full bg-white/50 backdrop-blur-md shadow-lg border border-black/5 text-black">
+        <div className="flex items-center justify-between px-6 py-0 rounded-full bg-white/50 backdrop-blur-md shadow-lg border border-black/5 text-black">
           <Link href="#home" className="flex items-center gap-2">
             <Image
               src="/captorange_logo.png"
               alt="CAPTORANGE Logo"
               width={140}
               height={32}
-              className="h-6 w-auto sm:h-8"
+              className="h-14 w-auto sm:h-20"
               priority
             />
           </Link>
@@ -119,7 +119,11 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 text-black"
             >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {mobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
