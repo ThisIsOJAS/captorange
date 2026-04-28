@@ -26,7 +26,7 @@ export function Footer() {
       </div>
 
       {/* Massive Logo at the bottom */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-[120vw] lg:w-[100vw] xl:w-[120vw] translate-y-[35%] md:translate-y-[40%] pointer-events-none opacity-60 flex justify-center items-end">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120vw] sm:w-[120vw] lg:w-screen xl:w-[120vw] translate-y-[35%] md:translate-y-[40%] pointer-events-none opacity-60 flex justify-center items-end">
         <Image
           src="/captorange_logo.png"
           alt="CAPTORANGE Background Logo"
